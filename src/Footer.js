@@ -1,17 +1,24 @@
-import React from 'react'
+import React from 'react';
+import "./Footer.css";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import MessageIcon from '@mui/icons-material/Message';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+import { Icon, IconButton } from '@mui/material';
 
-function Header() {
+function Footer() {
     return (
-        <div>
+        <div className='footer'>
+            <IconButton>
             <MessageIcon fontSize='large'/>
+            </IconButton>
+            <IconButton>
             <AccountCircleIcon fontSize='large'/>
+            </IconButton>
+            <IconButton>
             <EmojiPeopleIcon fontSize='large'/>
-            <h2>Hello World</h2>
+            </IconButton>
         </div>
     )
 }
 
-export default Header
+export default Footer
