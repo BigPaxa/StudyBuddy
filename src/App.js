@@ -1,21 +1,23 @@
 import React from 'react';
 import './App.css';
-import Header from './Header'
-
+import Footer from './Footer'
+import LogoFetch from './Logo'
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Let's build studybuddy</h1>
+      <h1>StudyBuddy</h1>
       
-      {/* Header */}
-      <Header />
+      {/* Logo */}
+      <LogoFetch/>
       {/* Tinder Cards */}
       {/* Buttons below tinder cards */}
 
       {/* Chat Screen */}
       {/* Individual Chat Screen */}
+      {/*footer menu bar*/}
+      <Footer />
 
 
 
