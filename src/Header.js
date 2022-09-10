@@ -1,12 +1,14 @@
 import React from 'react'
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import { Button } from '@mui/material';
+import MessageIcon from '@mui/icons-material/Message';
+import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 
 function Header() {
     return (
         <div>
-            <Button variant="contained">Hello World</Button>
+            <MessageIcon fontSize='large'/>
             <AccountCircleIcon fontSize='large'/>
+            <EmojiPeopleIcon fontSize='large'/>
             <h2>Hello World</h2>
         </div>
     )
